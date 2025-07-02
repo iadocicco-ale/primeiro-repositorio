@@ -30,10 +30,10 @@ jobs:
        - name: "Verificacao da versao do NodeJS atual"
          run: node --version
          
-       - name: "Definicao da versao v24.4.0 do NodeJS"
+       - name: "Definicao da versao v24.3.0 do NodeJS"
          uses: actions/setup-node@v4
          with: 
-          node-version: '20.13.1'
+          node-version: '24.3.0'
           
        - name: "Verificacao da versao do NodeJS atualizado"
          run: node --version
